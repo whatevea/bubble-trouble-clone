@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+	  
+	<title>sdfsd</title>
+</head>
+<body>
+</body>
+<script src="./js/ball.js"></script>  	
+ <script src="./js/Scene1.js"></script>  
+ <script src="./js/anims.js"></script>  
+
+
+<script type="text/javascript">
+config={
+	height:256,
+	width:256,
+	type:Phaser.CANVAS,
+	 physics: {
+        default: 'arcade',
+        arcade: {
+        	
+            debug: false
+        	}
+        },
+	scene:[Scene1]
+}
+console.log("sandip");
+var game= new Phaser.Game(config);
+// xandy coordinate
+// document.addEventListener("mousemove", () => {
+//   let mousex = event.clientX; // Gets Mouse X
+//   let mousey = event.clientY; // Gets Mouse Y
+//   console.log([mousex, mousey]); // Prints data
+// });
+
+
+</script>
+</html>
